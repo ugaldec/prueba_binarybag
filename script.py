@@ -163,7 +163,7 @@ try:
     if db.is_connected():
         print("-------insert beneficiarios inicio--------")
         cursor = db.cursor()
-        cursor.execute("DELETE FROM beneficiarios;")
+        #cursor.execute("DELETE FROM beneficiarios;")
         cursor.execute("SELECT * FROM causales")
         causales = cursor.fetchall()
         with open(url_archivo_nuevo, newline='') as dato:
@@ -197,9 +197,7 @@ finally:
 # 2.- Debe cargar las causales en una tabla independiente relacionada a la de beneficiarios
 # 3.- Debe almacenar la fecha como tipo date
 
-# se debe instalar https://dev.mysql.com/downloads/file/?id=502637
-# cambiar privilegios:
-# ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+
          
 
 
