@@ -1,0 +1,7 @@
+data_desafio_bb.csv:
+"id"|"nombre_completo"|"cod_entidad"|"cod_tramo"|"estado"|"fecha"|"causales"
+1|Gonzalo Felipe - Vitta - Fuentes|99999|4|EXTINTO|20110416|INGRESO PROMEDIO DEL BENEFICIARIO,PAGO DEL BENEFICIO INFORMADO
+
+respuesta_desafio_bb.csv
+1|Gonzalo Felipe|Vitta|Fuentes|99999|4|EXTINTO|20110416|INGRESO PROMEDIO DEL BENEFICIARIO
+1|Gonzalo Felipe|Vitta|Fuentes|99999|4|EXTINTO|20110416|PAGO DEL BENEFICIO INFORMADO
